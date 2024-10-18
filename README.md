@@ -6,6 +6,7 @@ Na matéria de Sistemas Corporativos, desenvolveremos nossos projetos a partir d
     1. Sistemas Informacionais Gerenciais (SIG)
     2. Sistemas de Apoio à Decisão (SAD)
     3. Sistemas ERP
+    4. Sistemas ERP (parte 2)
 * Introdução sobre NestJS
     1. ...
     2. ...
@@ -46,3 +47,25 @@ Sistema ERP é modular
 Automatiza tarefas
 
 Facilita e simplifica processos da empresa
+
+### 4. Sistemas ERP (parte 2)
+
+Servidor de aplicação
+
+Middleware
+
+Aplicação que fornece dados a serem consumidos
+
+Servidor dentro de servidor
+
+Aplicações empresariais geralmente são concebidas para interface e integração com outras aplicações empresariais
+
+O servidor é responsável por essa integração
+
+Características:
+
+1. Grande - precisa de suporte multiusuarios
+2. Orientado a empresas - atende às necessidades comerciais específicas; sensível às necessidades do negócio
+3. Missão crítica - deve ser robusto o suficiente para sustentar o funcionamento contínuo
+
+Conclusão - facilita a vida dos programadores e das empresas
