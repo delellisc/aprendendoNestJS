@@ -9,7 +9,7 @@ export const databaseProviders = [
         type: 'postgres',
         host: 'localhost',
         port: 5432,
-        username: 'root',
+        username: 'postgres',
         password: 'ifrn.cn',
         database: 'teste',
         entities: [
