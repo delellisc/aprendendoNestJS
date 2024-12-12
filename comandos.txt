@@ -1,0 +1,31 @@
+sudo apt-get update
+sudo apt-get install nodejs npm
+npm -v
+node -v
+npm i -g @nestjs/cli
+ls -l ..
+npm i -g @nestjs/cli
+sudo npm i -g @nestjs/cli
+nest new projeto01
+nest new projeto02
+⚡  We will scaffold your app in a few seconds..
+
+? Which package manager would you ❤️  to use? npm
+
+code projeto01/
+npm run start:dev
+
+nest g resource Client
+? What transport layer do you use? REST API
+? Would you like to generate CRUD entry points? Yes
+
+npm install g class-validator class-transformer
+
+npm install --save typeorm
+
+npm install --save mysql2
+
+npm install --save pg
+
+how to change postgres password with sql command via psql tool:
+ALTER USER user_name WITH PASSWORD 'new_password';
