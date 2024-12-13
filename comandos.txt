@@ -29,3 +29,27 @@ npm install --save pg
 
 how to change postgres password with sql command via psql tool:
 ALTER USER user_name WITH PASSWORD 'new_password';
+
+how to install mysql-workbench in ubuntu:
+
+systemctl status mysql
+sudo dpkg -i mysql-apt-config_0.8.33-1_all.deb 
+sudo apt-get update
+sudo apt-get install mysql-server
+
+tentei:
+sudo dpkg -i mysql-workbench-community-dbgsym_8.0.40-1ubuntu24.10_amd64.deb 
+sudo dpkg -i mysql-workbench-community_8.0.40-1ubuntu24.10_amd64.deb 
+sudo apt-get update
+sudo apt-get install mysql-workbench-community
+sudo apt --fix-broken install
+sudo apt-get install mysql-workbench-community
+sudo dpkg -i mysql-workbench-community-dbgsym_8.0.40-1ubuntu24.10_amd64.deb 
+sudo dpkg -i mysql-workbench-community_8.0.40-1ubuntu24.10_amd64.deb 
+sudo apt-get install mysql-workbench-community
+sudo apt --fix-broken install
+sudo apt-get install mysql-workbench-community
+deu errado.
+
+funcionou depois desse:
+sudo snap install mysql-workbench-community
