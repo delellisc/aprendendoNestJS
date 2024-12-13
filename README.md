@@ -69,3 +69,59 @@ Características:
 3. Missão crítica - deve ser robusto o suficiente para sustentar o funcionamento contínuo
 
 Conclusão - facilita a vida dos programadores e das empresas
+
+## Descobrindo coisas durante a matéria de sistemas corporativos
+
+
+
+### Adicionar um repositorio como subdiretorio de outro repositorio no GitHub
+Precisei fazer isso pra upar os projetos do Nest no meu repositório geral sobre o framework.
+
+```sh
+git remote add -f projeto ./projeto02/
+git merge -s ours --no-commit --allow-unrelated-histories projeto/master 
+git read-tree --prefix=projeto02/ -u projeto/master
+git read-tree --prefix=02projeto/ -u projeto/master
+git commit -m "Merge do projeto02 como subdiretório"
+git pull -s subtree Bprojeto master
+```
+
+### Como instalar o MySQL Workbench no Ubuntu:
+Precisei instalar essa ferramenta antes do professor lecionar como fazer consultas SQL utilizando o Nest, uma vez que ela não estava mais disponível após o recesso. Provavelmente os computadores foram restaurados durante esse período.
+
+Checar se o serviço MySQL já está instalado:
+```sh
+systemctl status mysql
+```
+
+Fazer a instalação do serviço:
+```sh
+sudo dpkg -i mysql-apt-config_0.8.33-1_all.deb 
+sudo apt-get update
+sudo apt-get install mysql-server
+```
+
+Após esse processo, verificar novamente se o serviço está instalado. Caso instalado, é possível instalar o Workbench:
+
+```sh
+sudo snap install mysql-workbench-community
+```
+
+OBS.: tentei a sequência de comandos a seguir e não funcionou, por isso optei por utilizar o ```snap``` como repositório para instalar a ferramenta:
+
+```sh
+sudo dpkg -i mysql-workbench-community_8.0.40-1ubuntu24.10_amd64.deb 
+sudo apt-get update
+sudo apt-get install mysql-workbench-community
+sudo apt --fix-broken install
+sudo apt-get install mysql-workbench-community
+```
+
+### Como mudar a senha de um usuário Postgres utilizando a ferramenta PSQL
+
+Precisei alterar a senha do usuário padrão ```postgres``` para conectar ao PgAdmin 4 no computador do laboratório D18. De acordo com o professor seria melhor utilizar a ferramenta que estamos acostumados a realizar a instalação do Workbench.
+
+Query em SQL para modificar a senha de um usuário Postgres utilizando a ferramenta PSQL:
+```sql
+ALTER USER user_name WITH PASSWORD 'new_password';
+```
