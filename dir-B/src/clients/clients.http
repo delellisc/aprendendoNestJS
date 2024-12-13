@@ -1,0 +1,28 @@
+### LISTA DE CLIENTES
+
+GET http://localhost:3000/clients
+
+### CRIANDO UM NOVO CLIENTE
+
+POST http://localhost:3000/clients
+Content-Type: application/json
+
+{
+    "name":"Aoi",
+    "email":"play@email.com",
+    "login":"aoashi31",
+    "password":"31",
+    "birthday":"2010-10-20"
+}
+
+### VERIFICAR UM CLIENTE
+
+GET http://localhost:3000/clients/1
+
+### ATUALIZAR UM CLIENTE
+
+PATCH http://localhost:3000/clients/1
+
+### DELETER UM CLIENTE
+
+DELETE http://localhost:3000/clients/1
