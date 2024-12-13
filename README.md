@@ -168,7 +168,7 @@ git commit -m "Merge do projeto02 como subdiretório"
 git pull -s subtree Bprojeto master
 ```
 
-### Como instalar o MySQL Workbench no Ubuntu:
+### Como instalar o MySQL Workbench no Debian/Ubuntu:
 Precisei instalar essa ferramenta antes do professor lecionar como fazer consultas SQL utilizando o Nest, uma vez que ela não estava mais disponível após o recesso. Provavelmente os computadores foram restaurados durante esse período.
 
 Checar se o serviço MySQL já está instalado:
