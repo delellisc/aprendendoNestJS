@@ -8,13 +8,18 @@ Na matéria de Sistemas Corporativos, desenvolveremos nossos projetos a partir d
     3. Sistemas ERP
     4. Sistemas ERP (parte 2)
 * Introdução sobre NestJS
-    1. ...
-    2. ...
+    1. O que é o Nest?
+    2. Inicializando um projeto Nest
+    3. Utilizando typeORM e PG
 
 ## Teoria sobre sistemas corporativos
 
 ### 1. Sistemas Informacionais Gerenciais (SIG)
+...
+
 ### 2. Sistemas de Apoio à Decisão (SAD)
+...
+
 ### Atividade sobre SIG e SAD
 1- Explique sobre sistema de informação gerencial?
 
@@ -70,9 +75,86 @@ Características:
 
 Conclusão - facilita a vida dos programadores e das empresas
 
+---
+
+### Atividade de Revisão
+
+01- Como as informações de um banco de dados podem ser classificadas? Explique cada uma!
+
+RESP.:
+Os três tipos de informações obtidas por um banco de dados podem ser categorizadas como:
+1. Informações Operacionais
+2. Informações Gerenciais
+3. Informações Executivas
+
+Uma informação operacional seria um dado relevante para alguma operação do sistema. Como por exemplo, na geração de um relatório "contas a receber" de um cliente, é preciso selecionar dados do cliente e dados das contas, que seriam informações operacionais.
+
+Uma informação gerencial seria um dado sensível para a gestão da empresa, como dados de transações e atividades do setor financeiro. Um exemplo é o número de inadimplentes com a empresa, que seria exibido na geração do relatório "contas a receber".
+
+Uma informação executiva também seria um dado sensível para a gestão da empresa, mas apresentado como uma comparação, visando facilitar a decisão do executivo responsável pela gerência da empresa. Ainda no exemplo do relatório "contas a receber", uma informação executiva que pode estar contida nesse relatório é a comparação entre os inadimplentes e o número total de clientes da empresa.
+
+02- Explique sobre sistema de informação?
+
+RESP.:
+Um sistema de informação é o conjunto de ferramentas, atividades e documentação responsáveis por coleta e gerência de dados.
+
+03- Defina sistema de Informação Gerencial
+
+RESP.:
+Um sistema de informação gerencial (SIG) é um sistema desenvolvido para ser utilizado por empresas, diferindo-se de um sistema de informação convencional, que é utilizado por um cliente final. Os SIGs são desenvolvidos para suprir necessidades da empresa e geralmente são utilizados no contexto de gerenciamento e tomada de decisões, fornecendo controle sobre os processos da empresa e gerando relatórios com informações relevantes.
+
+04- Qual a principal função dos sistemas de informação
+
+RESP.:
+Os sistemas de informação, como discutido anteriormente, tem como principal informação coletar e organizar dados relevantes. No ambiente corporativo, os sistemas de informação são utilizados para fornecer dados de maneira eficiente e limpa, facilitando a gestão da empresa
+
+05- Explique o que é SAD
+
+RESP.:
+Um sistema de apoio à decisão (SAD), assim como comentado brevemente acima, é um tipo de sistema de informação gerencial. Ele tem como objetivo solucionar problemáticas vividas no meio corporativo. Isso é feito por meio da sintetização dos dados e geração de relatórios, que ao serem interpretados, auxiliam no processo de tomada de decisão da empresa.
+
+06- Existe dois tipos de SAD, quais são? Explique pelo menos um
+
+RESP.:
+Os sistemas de apoio à decisão podem ser divididos em duas categorias: Baseado em Modelos e Orientado ao Objeto. Nos sistemas de apoio à decisão orientados ao objeto, também conhecidos como SAD orientado por dados, o sistema analisam a base de dados da empresa para extrair e analisar informações relevantes, apoiando a tomada de decisão da empresa a partir de relatórios que exibem esses dados. 
+
+07- Descreva o termo “Aplicativo Corporativo”
+
+RESP.:
+O termo "Aplicativo Corporativo" é empregado quando se fala de aplicações que solucionam problemas organizacionais no ambiente corporativo.
+
+08- Conceitue sobre servidor de Aplicação
+
+RESP.:
+Os servidor de aplicação são softwares categorizados como "middleware" que tem como função fornecer uma plataforma para que outras aplicativos corporativas sejam integrados ao ambiente da empresa, tornando possível a integração de atividades empresariais e aumento da eficiência dos processos da empresa.
+
+09- O que é o Sistema ERP e para que serve?
+
+RESP.:
+Sistemas ERP (Enterprise Resource Planning) são SIGs responsáveis por gerenciar todos os setores de uma empresa. Um sistema ERP oferece aplicações de negócios que em conjunto, a partir da base de dados da empresa, monitoram o desempenho dos mais diversos setores da empresa, automatizam processos e auxiliam no planejamento da empresa.
+
+10-Quais os tipos de software do modelo ERP?
+
+RESP.:
+Os sistemas ERP podem ser categorizados em três tipos de acordo com sua implementação. São eles: sistemas no local, sistemas baseados na nuvem e sistemas híbridos.
+
+---
+
+## Introdução sobre NestJS
+Ler a documentação e comentar aqui o que eu deveria aprender na matéria.
+
+### O que é o Nest?
+...
+
+### Inicializando um projeto Nest
+...
+
+### Utilizando typeORM e PG
+...
+
+---
+
 ## Descobrindo coisas durante a matéria de sistemas corporativos
-
-
 
 ### Adicionar um repositorio como subdiretorio de outro repositorio no GitHub
 Precisei fazer isso pra upar os projetos do Nest no meu repositório geral sobre o framework.
